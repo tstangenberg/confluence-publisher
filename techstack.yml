@@ -1,0 +1,323 @@
+repo_name: tstangenberg/confluence-publisher
+report_id: 06c1700c3bdafb7e1d61555fa392bde6
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T10:32:37+00:00'
+requested_by: cstettler
+provider: github
+branch: master
+detected_tools_count: 26
+tools:
+- name: Asciidoctor
+  description: An open source, pure Ruby processor for converting AsciiDoc documents
+    or strings into HTML and other formats
+  website_url: https://asciidoctor.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2924/gvQpykZd_400x400.jpg
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-converter/pom.xml
+  detection_source: asciidoc-confluence-publisher-converter/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2017-08-20 13:56:48.000000000 Z
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher
+  detection_source: Repo Metadata
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: cstettler
+  last_updated_on: 2019-02-28 15:43:27.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2018-04-21 16:32:33.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-client/pom.xml
+  detection_source: asciidoc-confluence-publisher-client/pom.xml
+  last_updated_by: Alain Sahli
+  last_updated_on: 2016-05-19 22:46:05.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2018-04-21 16:32:33.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher
+  detection_source: Repo Metadata
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: Anastasiia Smirnova
+  last_updated_on: 2019-03-01 10:05:14.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-client/pom.xml
+  detection_source: asciidoc-confluence-publisher-client/pom.xml
+  last_updated_by: Alain Sahli
+  last_updated_on: 2016-05-19 22:46:05.000000000 Z
+- name: commons-lang:commons-lang
+  description: Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-client/pom.xml
+  detection_source: asciidoc-confluence-publisher-client/pom.xml
+  last_updated_by: Alain Sahli
+  last_updated_on: 2016-05-19 22:46:05.000000000 Z
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2018-04-21 16:32:33.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2018-04-21 16:32:33.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-08 18:12:18.000000000 Z
+- name: org.apache.httpcomponents:httpmime
+  description: Apache HttpComponents HttpClient - MIME coded entities
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-client/pom.xml
+  detection_source: asciidoc-confluence-publisher-client/pom.xml
+  last_updated_by: Alain Sahli
+  last_updated_on: 2016-05-19 22:46:05.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-annotations
+  description: Java 5 annotations to use in Mojos
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-maven-plugin/pom.xml
+  detection_source: asciidoc-confluence-publisher-maven-plugin/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-14 12:07:35.000000000 Z
+- name: org.apache.maven.shared:maven-verifier
+  description: Provides a test harness for Maven integration tests
+  version: '1.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-maven-plugin/pom.xml
+  detection_source: asciidoc-confluence-publisher-maven-plugin/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-14 12:07:35.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-maven-plugin/pom.xml
+  detection_source: asciidoc-confluence-publisher-maven-plugin/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-14 12:07:35.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-maven-plugin/pom.xml
+  detection_source: asciidoc-confluence-publisher-maven-plugin/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-14 12:07:35.000000000 Z
+- name: org.asciidoctor:asciidoctorj
+  description: AsciidoctorJ provides Java bindings for the Asciidoctor RubyGem
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-converter/pom.xml
+  detection_source: asciidoc-confluence-publisher-converter/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2017-08-20 19:25:35.000000000 Z
+- name: org.hamcrest:hamcrest-all
+  description: A self-contained hamcrest jar containing all of the sub-modules in
+    a single artifact
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-08 18:12:18.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-client/pom.xml
+  detection_source: asciidoc-confluence-publisher-client/pom.xml
+  last_updated_by: Alain Sahli
+  last_updated_on: 2016-05-19 22:46:05.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-08 18:12:18.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/confluence-publisher/blob/master/asciidoc-confluence-publisher-cli/pom.xml
+  detection_source: asciidoc-confluence-publisher-cli/pom.xml
+  last_updated_by: cstettler
+  last_updated_on: 2019-09-08 18:12:18.000000000 Z
